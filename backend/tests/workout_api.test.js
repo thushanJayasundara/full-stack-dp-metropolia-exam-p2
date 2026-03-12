@@ -57,6 +57,7 @@ describe("Workout API", () => {
         expect(response.statusCode).toBe(201);
         expect(response.body.username).toBe(newUser.username);
         expect(typeof response.body.token).toBe("string");
+        
     });
 });
 
