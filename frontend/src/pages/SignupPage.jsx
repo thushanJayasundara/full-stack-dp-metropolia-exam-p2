@@ -14,6 +14,7 @@ export default function SignupPage() {
         e.preventDefault();
         signup({ name, username, password, phone_number, address });
     };
+    
 
     return (
         <div>
